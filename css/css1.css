@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #000000;
+}
+.mission-vision {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-size: cover;
+  color: #00000;
+  margin: 20px;
+  background-image: url("imagen-de-fondo.png");
+  height: 100%;
+}
+
+.banner {
+  flex: 1;
+  max-width: 100%;
+  height: 600px;
+  background-image: url("fondo-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: #000000;
+}
+
+.banner-text {
+   top: 50%;
+  left: 50%;
+  text-align: center;
+	padding: 50px;
+}
+
+
+.banner-text p {
+  font-size: 45px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.mission, .vision {
+  flex: 1;
+  height: 100%;
+  max-width: 50%;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+.vision {
+border-left: solid thin #F5F1F1;
+}
+.banner-text img {
+	max-width: 20%;
+	margin: 0;
+	padding: :0;
+}
+
+.mission img, .vision img {
+  max-width: 20%;
+  margin-bottom: 0px;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.mission h2, .vision h2 {
+  font-size: 32px;
+  color: #000000;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+  margin-bottom: 20px;
+  padding: 0px;
+  text-align: center;
+}
+
+.mission p, .vision p {
+  font-size: 18px;
+  color: #00000;
+  text-align: center;
+  margin: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .mission, .vision {
+	width: 30%;
+    margin-bottom: 0%;
+    text-align: center;
+  }
+  
+  .mission {
+    margin-right: 0%;
+  }
+  
+  .vision {
+    margin-left: 0%;
+    text-align: center;
+  }
+}
